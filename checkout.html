@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LiveFit Checkout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="checkout-container">
+  <div class="left-section">
+    <h2>Contact Information</h2>
+    <form>
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" name="first-name" required>
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" name="last-name" required>
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" required>
+      <label for="area">Area</label>
+      <input type="text" id="area" name="area" required>
+      <input type="checkbox" id="save-contact" name="save-contact">
+      <label for="save-contact">Save contact information for future orders</label>
+      <button class="continue-button">Continue to Shipping</button>
+    </form>
+  </div>
+  <div class="right-section">
+    <h2>Your Cart</h2>
+    <div class="cart-item">
+      <img src="Dumbell.jpg" alt="Product 1">
+      <div class="item-details">
+        <h3>Product 1</h3>
+        <p>Quantity: 2</p>
+        <p>Price: Rs 10000</p>
+        <button class="remove-button">Remove</button>
+      </div>
+    </div>
+    <div class="cart-item">
+      <img src="Dumbell.jpg" alt="Product 2">
+      <div class="item-details">
+        <h3>Product 2</h3>
+        <p>Quantity: 1</p>
+        <p>Price: Rs 5000</p>
+        <button class="remove-button">Remove</button>
+      </div>
+    </div>
+    <div class="cart-total">
+      <p>Total: Rs 15000</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

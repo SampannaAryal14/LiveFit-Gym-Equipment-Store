@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  .category-trigger {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  .category-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  .category-trigger:hover .category-list {
+    display: block;
+  }
+  .category-item {
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+</style>
+<title>Category Pop-up</title>
+</head>
+<body>
+  <div class="category-trigger">
+    Hover over me for categories
+    <div class="category-list">
+      <div class="category-item">Category 1</div>
+      <div class="category-item">Category 2</div>
+      <div class="category-item">Category 3</div>
+      <!-- Add more categories as needed -->
+    </div>
+  </div>
+</body>
+</html>
